@@ -1,0 +1,105 @@
+
+/*////////// RESPONSIVE LAYOUT /////////////*/
+
+@media only screen and (max-width: 900px) {
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+img{
+	width:80%;
+
+}
+
+#cssmenu{
+	width:80%;
+}
+
+.col-4{
+width:26%;
+
+}
+
+.col-6 {
+    width:25%;
+    display:block;
+    float:none;
+    padding-right:none;
+    margin-left:none;
+}
+
+
+
+.row1, .row2, .row3{
+    height:80px;
+    float:none;
+}
+}
+
+
+@media only screen and (max-width: 760px) {
+	
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img{
+	width:70%;
+
+}
+
+.row img{
+	width:100%;
+
+}
+
+#cssmenu{
+	width:70%;
+}
+
+.col-4{
+float:none;
+margin:auto
+width:100%;
+
+}
+
+
+
+	}
+
+}
+
+
+
+
+/*.col-1  { width: 6.5%;  }
+.col-2  { width: 15%;   }
+.col-3  { width: 23.5%; }
+.col-4  { width: 33%;  }
+.col-5  { width: 40.5%; }
+.col-6  { width: 50%;   }
+.col-7  { width: 57.5%; }
+.col-8  { width: 66%;   }
+.col-9  { width: 74.5%; }
+.col-10 { width: 83%;   }
+.col-11 { width: 91.5%; }
+.col-12 { width: 100%;  }*/
+
+
+
+
+/*[class*="col-"]{
+    position: relative;
+    right: 0px;
+    width: 30%;
+    background-color: #b0e0e6;
+
+   
+}*/
+
